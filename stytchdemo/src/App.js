@@ -11,7 +11,7 @@ function App() {
       <h1>Is this connected? yes.</h1>
       <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" exact element={<Home/>} />
           <Route path="/Login" element={<Login/>} />
           <Route path="/Auth" element={<Auth/>} />
         </Routes>
