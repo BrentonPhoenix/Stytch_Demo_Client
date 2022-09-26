@@ -8,7 +8,6 @@ import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
-      <h1>Is this connected? yes.</h1>
       <Router>
         <Routes>
           <Route path="/" exact element={<Home/>} />
