@@ -8,7 +8,7 @@ export default function Login(){
         .then(()=>{
             console.log('ok')
            
-        }) .catch(err=> console.log(`the error is: ${err}`))}
+        }) .catch(err => console.log(`there is an error`))}
     
     return(
 
